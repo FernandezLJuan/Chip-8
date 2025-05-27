@@ -3,9 +3,9 @@
 #include <SDL2/SDL_mixer.h>
 #include "chip8.h"
 
-SDL_Window* window = nullptr;
-SDL_Renderer* renderer = nullptr;
-Mix_Chunk* beep = nullptr;
+SDL_Window* window = NULL;
+SDL_Renderer* renderer = NULL;
+Mix_Chunk* beep = NULL;
 
 void init_sdl(){
 	SDL_Init(SDL_INIT_VIDEO | SDL_INIT_EVENTS | SDL_INIT_AUDIO);
