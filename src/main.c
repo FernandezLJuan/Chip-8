@@ -5,7 +5,6 @@
 #include <stdint.h>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_mixer.h>
-#include <nfd.h>
 #include "rendering.h"
 #include "chip8.h"
 #include "handlers.h"
